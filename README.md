@@ -14,27 +14,32 @@ Suspicious or unknown files
 
 The application provides a simple GUI built with Tkinter, making it usable without command-line knowledge.
 
+
  
 FEATURES
-File type identification using magic numbers
 
-User-friendly GUI interface
+1.File type identification using magic numbers
 
-Detects extension mismatch (spoofing alert)
+2.User-friendly GUI interface
 
-Works on any file type
+3.Detects extension mismatch (spoofing alert)
 
-Cross-platform (Windows, Linux, macOS)
+4.Works on any file type
 
-Offline & lightweight (no external APIs)
+5.Cross-platform (Windows, Linux, macOS)
+
+6.Offline & lightweight (no external APIs)
+
+
 
 HOW IT WORK
 
-User selects a file via GUI
+1.User selects a file via GUI
 
-Tool reads the first few bytes of the file
+2.Tool reads the first few bytes of the file
 
-Compares bytes against known file signatures
+3.Compares bytes against known file signatures
+
 
 Displays:
 
@@ -46,12 +51,18 @@ Displays:
 
 -Warns if extension does not match the real file type
 
+
+
 HOW TO USE
+
 1. Clone the repository
 git clone [https://github.com/your-username/file-type-identifier.git](https://github.com/SushantOgale/GUI-Based-File-Type-Identifier-Magic-Number-Analysis-.git)
 
+
 2. Run the application
 python File Type Identifier.py
+
+
 
 TOOL CAN BE USED IN-
 
@@ -64,6 +75,8 @@ TOOL CAN BE USED IN-
 4.SOC alert triage
 
 5.Cybersecurity labs & assignments
+
+
 
 project as:
 
