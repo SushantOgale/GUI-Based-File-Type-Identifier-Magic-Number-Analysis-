@@ -49,10 +49,9 @@ Displays:
 HOW TO USE
 1. Clone the repository
 git clone [https://github.com/your-username/file-type-identifier.git](https://github.com/SushantOgale/GUI-Based-File-Type-Identifier-Magic-Number-Analysis-.git)
-cd file-type-identifier
 
 2. Run the application
-python file_identifier_gui.py
+python File Type Identifier.py
 
 TOOL CAN BE USED IN-
 
