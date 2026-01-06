@@ -14,21 +14,16 @@ Suspicious or unknown files
 
 The application provides a simple GUI built with Tkinter, making it usable without command-line knowledge.
 
-✨ Features
+ 
+FEATURES
+File type identification using magic numbers
+User-friendly GUI interface
+Detects extension mismatch (spoofing alert)
+Works on any file type
+Cross-platform (Windows, Linux, macOS)
+Offline & lightweight (no external APIs)
 
-🔍 File type identification using magic numbers
-
-🖥️ User-friendly GUI interface
-
-⚠️ Detects extension mismatch (spoofing alert)
-
-📁 Works on any file type
-
-🌐 Cross-platform (Windows, Linux, macOS)
-
-🔒 Offline & lightweight (no external APIs)
-
-🧠 How It Works
+HOW IT WORK
 
 User selects a file via GUI
 
@@ -38,49 +33,15 @@ Compares bytes against known file signatures
 
 Displays:
 
-File name
+-File name
 
-File extension
+-File extension
 
-Actual detected file type
+-Actual detected file type
 
-Warns if extension does not match the real file type
+-Warns if extension does not match the real file type
 
-🧪 Example
-
-File name:
-
-resume.pdf
-
-
-Detected signature:
-
-4D 5A
-
-
-Result:
-
-Windows Executable (EXE)
-⚠ WARNING: Extension does NOT match actual file type!
-
-
-➡ Indicates potential malware masquerading as a PDF
-
-🛠️ Technologies Used
-
-Python 3
-
-Tkinter (GUI)
-
-Magic number / file signature analysis
-
-📂 Project Structure
-file-type-identifier/
-│
-├── file_identifier_gui.py
-├── README.md
-
-▶️ How to Run
+HOW TO USE
 1. Clone the repository
 git clone [https://github.com/your-username/file-type-identifier.git](https://github.com/SushantOgale/GUI-Based-File-Type-Identifier-Magic-Number-Analysis-.git)
 cd file-type-identifier
@@ -88,46 +49,18 @@ cd file-type-identifier
 2. Run the application
 python file_identifier_gui.py
 
-📚 Use Cases
+TOOL CAN BE USED IN-
+             1.Malware analysis
+             2.Digital forensics
+             3.Secure file upload validation
+             4.SOC alert triage
+             5.Cybersecurity labs & assignments
 
-Malware analysis
-
-Digital forensics
-
-Secure file upload validation
-
-SOC alert triage
-
-Cybersecurity labs & assignments
-
-Learning file internals
-
-🎓 Academic & Resume Value
-
-You can describe this project as:
+project as:
 
 “A GUI-based file type identification tool using magic number analysis to detect extension spoofing and disguised malware.”
 
 This project demonstrates:
-
-Security fundamentals
-
-Low-level file analysis
-
-Practical defensive security skills
-
-🔮 Future Enhancements
-
-Hash generation (MD5 / SHA256)
-
-VirusTotal API integration
-
-Batch folder scanning
-
-Drag-and-drop GUI
-
-Threat severity scoring
-
-PE / ELF deep analysis
-
-Flask-based web dashboard
+            1.Security fundamentals
+            2.Low-level file analysis
+            3.Practical defensive security skills
