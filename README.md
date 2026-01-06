@@ -17,10 +17,15 @@ The application provides a simple GUI built with Tkinter, making it usable witho
  
 FEATURES
 File type identification using magic numbers
+
 User-friendly GUI interface
+
 Detects extension mismatch (spoofing alert)
+
 Works on any file type
+
 Cross-platform (Windows, Linux, macOS)
+
 Offline & lightweight (no external APIs)
 
 HOW IT WORK
@@ -50,10 +55,15 @@ cd file-type-identifier
 python file_identifier_gui.py
 
 TOOL CAN BE USED IN-
+
 1.Malware analysis 
+
 2.Digital forensics
+
 3.Secure file upload validation
+
 4.SOC alert triage
+
 5.Cybersecurity labs & assignments
 
 project as:
@@ -61,6 +71,8 @@ project as:
 “A GUI-based file type identification tool using magic number analysis to detect extension spoofing and disguised malware.”
 
 This project demonstrates:
-            1.Security fundamentals
-            2.Low-level file analysis
-            3.Practical defensive security skills
+1.Security fundamentals
+       
+2.Low-level file analysis
+   
+3.Practical defensive security skills
