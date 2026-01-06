@@ -50,11 +50,11 @@ cd file-type-identifier
 python file_identifier_gui.py
 
 TOOL CAN BE USED IN-
-             1.Malware analysis
-             2.Digital forensics
-             3.Secure file upload validation
-             4.SOC alert triage
-             5.Cybersecurity labs & assignments
+1.Malware analysis 
+2.Digital forensics
+3.Secure file upload validation
+4.SOC alert triage
+5.Cybersecurity labs & assignments
 
 project as:
 
